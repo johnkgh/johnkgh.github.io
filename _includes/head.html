@@ -1,0 +1,15 @@
+<head>
+  <title>{{ site.name }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+
+  {% include meta.html %}
+  {% include fonts.html %}
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+
+</head>
