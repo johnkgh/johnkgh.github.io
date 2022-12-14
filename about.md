@@ -14,9 +14,6 @@ of Virginia and graduated with a B.S. in Computer Science in 2017. I lived in
 Salt Lake City, Utah for a period of time after graduating college, but have
 since moved back to Virginia.
 
-If you would like to contact me for job opportunities, you can reach me via
-email: [jkj7420@gmail.com](mailto:jkj7420@gmail.com).
-
 ## Professional
 
 ### Appian (2016 - Present)
