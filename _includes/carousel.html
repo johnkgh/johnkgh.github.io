@@ -33,7 +33,7 @@
     <div class="carousel__track">
       <ul>
         {% for item in page.carousels[number].images %}
-          <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+          <div class="carousel__slide" style="background-image: url('{{ item.image }}');"></div>
         {% endfor %}
       </ul>
     </div>
