@@ -54,7 +54,7 @@ Miles and miles of glacier travel, rugged terrain, and neverending views.
 <!--more-->
 
 We started at Cascade Pass and opted to exit out Miner's Ridge, with splitter weather over all four days.
-There were many highlights of the trip, but I think my favorite by far is the vista on top of Dome Peak, unquestionably the best mountain views I've ever had in my life.
+There were many highlights of the trip, but I think my favorite by far is the vista on top of Dome Peak which is unquestionably the best mountain views I've ever had in my life.
 I would even go far as to say the classic Ptarmigan Traverse might not be worth it if Dome is skipped, so go get it!
 
 ## Cascade Pass Trailhead → Yang Yang Lakes
@@ -168,12 +168,12 @@ _Good morning!_
 ---
 
 ![](/images/2023-06-30-ptarmigan-3/ptarmigan-3-12.jpeg)
-_Cool shadows on the Chikamin Glacier_
+_Cool textures on the Chikamin Glacier_
 
 ---
 
 ![](/images/2023-06-30-ptarmigan-3/ptarmigan-3-14.jpeg)
-_We also have to descend it lol_
+_We also have to descend a portion of it_
 
 ---
 
@@ -213,7 +213,7 @@ _Glacier Peak from camp_
 ---
 
 ![](/images/2023-06-30-ptarmigan-3/ptarmigan-3-36.jpeg)
-_Canyon Lake_
+_A nice bath was had at Canyon Lake_
 
 ---
 
