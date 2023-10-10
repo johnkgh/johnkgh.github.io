@@ -2,7 +2,7 @@
 layout: post
 title: "Little Tahoma"
 tags: [skiing, volcano]
-preview-image: "/images/2022-07-01-little-tahoma/little-tahoma-3.jpeg"
+preview-image: /images/2022-07-01-little-tahoma/little-tahoma-3.jpeg
 ---
 
 Little Tahoma is a satellite peak of Rainier, the pointy thing next to the main summit.

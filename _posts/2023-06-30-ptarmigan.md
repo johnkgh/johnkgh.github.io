@@ -2,7 +2,7 @@
 layout: post
 title: "Ptarmigan Traverse"
 tags: [on-foot, north cascades, multi-day]
-preview-image: "/images/2023-06-30-ptarmigan-3/ptarmigan-3-19.jpeg"
+preview-image: /images/2023-06-30-ptarmigan-3/ptarmigan-3-19.jpeg
 carousels:
   - images:
     - image: /images/2023-06-30-ptarmigan-1/ptarmigan-1-2.jpeg
@@ -64,7 +64,7 @@ _And we're off! Fortunate timing as the trailhead opened a couple days before._
 ---
 
 {% include carousel.html height="75" unit="%" number="1" %}
-_Classic views of Johannesburg & co from Cascade Pass._
+_Classic views of Johannesburg & co from Cascade Pass_
 
 ---
 
@@ -104,7 +104,7 @@ Made it to camp! Yang Yang Lakes north.
 ---
 
 ![](/images/2023-06-30-ptarmigan-1/ptarmigan-1-33.jpeg)
-Yang Yang Lakes south.
+Yang Yang Lakes south
 
 ---
 
@@ -121,7 +121,7 @@ _Looking at Dome Peak and the broken up Chikamin Glacier to its left_
 ---
 
 {% include carousel.html height="75" unit="%" number="4" %}
-_Dana Glacier and Elephant Head above - I wonder if anyone's climbed that \.\.\._
+_Dana Glacier and Elephant Head above - I wonder if anyone's climbed that\.\.\._
 
 ---
 
