@@ -18,8 +18,10 @@ The quality of descent was pretty mediocre, but it was otherwise cool to check o
 
 <!--more-->
 
+---
+
 ![](/images/2022-07-11-glacier-peak/glacier-peak-1.jpeg)
-_Finally cleared the treeline_
+_Clearing the treeline_
 
 ---
 

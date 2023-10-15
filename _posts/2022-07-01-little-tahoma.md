@@ -12,6 +12,8 @@ Can you imagine another a couple thousand feet on top of what is Rainier current
 
 <!--more-->
 
+---
+
 ![](/images/2022-07-01-little-tahoma/little-tahoma-1.jpeg)
 _First view of Rainier a little after sunrise_
 

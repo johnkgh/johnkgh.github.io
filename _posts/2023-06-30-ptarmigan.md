@@ -57,6 +57,8 @@ We started at Cascade Pass and opted to exit out Miner's Ridge, with splitter we
 There were many highlights of the trip, but I think my favorite by far is the vista on top of Dome Peak which is unquestionably the best mountain views I've ever had in my life.
 I would even go far as to say the classic Ptarmigan Traverse might not be worth it if Dome is skipped, so go get it!
 
+---
+
 ## Cascade Pass Trailhead → Yang Yang Lakes
 ![](/images/2023-06-30-ptarmigan-1/ptarmigan-1-1.jpeg)
 _And we're off! Fortunate timing as the trailhead opened a couple days before._

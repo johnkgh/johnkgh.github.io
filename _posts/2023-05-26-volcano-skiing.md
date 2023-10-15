@@ -65,7 +65,6 @@ carousels:
     - image: /images/2023-05-26-volcanos/volcano-64.jpeg
     - image: /images/2023-05-26-volcanos/volcano-65.jpeg
     - image: /images/2023-05-26-volcanos/volcano-66.jpeg
-
 ---
 
 Kind of a throwaway post.
@@ -75,6 +74,8 @@ Up Shasta in 4:00, up Hood in 2:40, almost 20k of vert on Adams over two days.
 I know most of this was probably due to living at elevation while in the Sierra, but it planted the idea that I can maybe achieve this level of fitness regularly if I really get my stuff together.
 
 <!--more-->
+
+---
 
 ## Lassen Peak
 
@@ -155,7 +156,7 @@ _Pearly gates not looking too pearly, stinky fumaroles, and a giant bergschrund 
 ---
 
 ![](/images/2023-05-26-volcanos/volcano-31.jpeg)
-_Again, not a stats guy, but keeping a decent clip while nose breathing! I can be proud of myself every once in a while right?_
+_Again, not a stats guy, but keeping a decent clip while nose breathing! I can be proud of myself every once in a while right? Something something about slow is smooth, smooth is fast._
 
 ---
 
@@ -211,6 +212,7 @@ _I think Adams is such a good skier's mountain. You can scope out most of the li
 {% include carousel.html height="75" unit="%" number="12" %}
 _Obligatory views of other volcanos. That's all there is to see down south folks._
 
+---
 
 {% include carousel.html height="75" unit="%" number="13" %}
 _More ants on Saturday than Sunday it seems_
