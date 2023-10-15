@@ -30,7 +30,7 @@ navigation:
     url: /tags
 
 # Pagination
-paginate: 12
+paginate: 16
 
 # Includes an icon in the footer for each username you enter
 footer-links:
