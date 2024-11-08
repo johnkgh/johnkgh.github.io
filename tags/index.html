@@ -22,7 +22,7 @@ permalink: /tags/
 
   {% for tag in site.tags %}
     <h2 id="{{ tag[0] }}">
-      {{ tag[0] }}
+      <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ tag[0] }}">{{ tag[0] }}</a>
     </h2>
     <ul class="tag">
       {% for post in tag[1] %}
