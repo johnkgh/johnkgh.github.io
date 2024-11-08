@@ -18,8 +18,6 @@ navigation:
   - name: Tags
     url: /tags
 
-paginate: 12
-
 # Includes an icon in the footer for each username you enter
 footer-links:
   behance:
@@ -65,7 +63,14 @@ excerpt_separator: <!--more-->
 #
 
 permalink: pretty
-paginate_path: /page/:num/
+
+pagination:
+  enabled: true
+  per_page: 12
+  permalink: '/page/:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -87,7 +92,7 @@ sass:
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 # Exclude these files from your production _site
 exclude:
