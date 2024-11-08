@@ -18,6 +18,8 @@ navigation:
   - name: Favorites
     url: /tags/favorite
 
+paginate: 12
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   behance:
@@ -63,14 +65,7 @@ excerpt_separator: <!--more-->
 #
 
 permalink: pretty
-
-pagination:
-  enabled: true
-  per_page: 12
-  permalink: '/page/:num/'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+paginate_path: /page/:num/
 
 autopages:
   enabled: true
@@ -109,7 +104,7 @@ sass:
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:
