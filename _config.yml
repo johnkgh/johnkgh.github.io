@@ -9,14 +9,14 @@ avatar: /images/avatar.jpg
 
 # Tabs in header.
 navigation:
-  - name: Home
-    url: /
   - name: About
     url: /about
   - name: Archive
     url: /archive
   - name: Tags
     url: /tags
+  - name: Favorites
+    url: /tags/favorite
 
 # Includes an icon in the footer for each username you enter
 footer-links:
