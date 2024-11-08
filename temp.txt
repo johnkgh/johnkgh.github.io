@@ -1,0 +1,177 @@
+Template:
+---
+layout: post
+title:
+tags:
+preview-image:
+---
+
+Lorem ipsum
+
+<!--more-->
+
+![image.jpg](/image.jpg)
+
+---
+
+## Notes/Beta
+*
+
+
+Todo
+* Keep working on outings to the start of WA (mid-2021). Consider going back to start of 2021 depending on photos
+* Given that we can autogenerate tag pages and don't have much flexibility on each individual one, the main tag page is probably going to have to be manually edited which gives flexibility for descriptions on what the tags mean, etc
+* Maybe have collapsible previews in the archive and tag pages
+
+meta on grand teton
+
+meta colorado on crestones
+great traverses
+14ers
+terrain
+culture
+punching bag
+
+thoughts on summiting volcanoes on gp
+
+Todo:
+touch _posts/2024-04-13-spearhead-traverse.md; mkdir 2024-04-13-spearhead-traverse
+touch _posts/2024-05-11-aurora.md; mkdir 2024-05-11-aurora
+touch _posts/2024-05-31-baker-park-headwall.md; mkdir 2024-05-31-baker-park-headwall
+touch _posts/2024-06-08-baker-squak.md; mkdir 2024-06-08-baker-squak
+touch _posts/2024-06-13-ruth-icy.md; mkdir 2024-06-13-ruth-icy
+touch _posts/2024-04-08-solar-eclipse.md; mkdir 2024-04-08-solar-eclipse
+touch _posts/2024-03-14-pineapple-pass-rio.md; mkdir 2024-03-14-pineapple-pass
+touch _posts/2024-03-13-jim-hill-trees.md; mkdir 2024-03-13-jim-hill-trees
+touch _posts/2024-03-02-crystal-backcountry-greg.md; mkdir 2024-03-02-crystal-backcountry
+touch _posts/2024-03-01-crystal-backcountry-jake.md; mkdir 2024-03-01-crystal-backcountry
+touch _posts/2024-02-27-alpental-meandering.md; mkdir 2024-02-27-alpental-meandering
+touch _posts/2024-02-26-friendly-trees.md; mkdir 2024-02-26-friendly-trees
+touch _posts/2024-02-14-suicide-chute.md; mkdir 2024-02-14-suicide-chute
+touch _posts/2024-02-12-apollo-couloir.md; mkdir 2024-02-12-apollo-couloir
+touch _posts/2024-02-11-tolcats-couloir.md; mkdir 2024-02-11-tolcats-couloir
+touch _posts/2024-02-10-south-face-superior.md; mkdir 2024-02-10-south-face-superior
+touch _posts/2024-02-10-whipple-waldo.md; mkdir 2024-02-10-whipple-waldo
+touch _posts/2024-02-09-cardiff-flagstaff.md; mkdir 2024-02-09-cardiff-flagstaff
+touch _posts/2024-02-08-emma-ridge.md; mkdir 2024-02-08-emma-ridge
+touch _posts/2024-02-04-spruces-to-mineral-fork.md; mkdir 2024-02-04-spruces-to-mineral-fork
+touch _posts/2024-02-03-little-pine-scotties.md; mkdir 2024-02-03-little-pine-scotties
+touch _posts/2024-02-02-lcc.md; mkdir 2024-02-02-lcc
+touch _posts/2024-01-28-scotties.md; mkdir 2024-01-28-scotties
+touch _posts/2024-01-27-bonkers.md; mkdir 2024-01-27-bonkers
+touch _posts/2024-01-26-argenta.md; mkdir 2024-01-26-argenta
+touch _posts/2024-01-25-west-porter.md; mkdir 2024-01-25-west-porter
+touch _posts/2024-01-24-lcc.md; mkdir 2024-01-24-lcc
+touch _posts/2024-01-16-franklin-falls.md; mkdir 2024-01-16-franklin-falls
+touch _posts/2024-01-14-ptarmigan-perch.md; mkdir 2024-01-14-ptarmigan-perch
+touch _posts/2024-01-13-baker-backcountry.md; mkdir 2024-01-13-baker-backcountry
+touch _posts/2024-01-12-phantom.md; mkdir 2024-01-12-phantom
+touch _posts/2024-01-10-humpback.md; mkdir 2024-01-10-humpback
+touch _posts/2024-01-07-wright.md; mkdir 2024-01-07-wright
+touch _posts/2024-01-06-phantom.md; mkdir 2024-01-06-phantom
+
+2023-10-13-mushroom-foraging
+2023-09-16-Scenes from Crewing Teanaway 100, Mailbox
+2023-07-30-sahale
+2023-07-28-tatoosh-traverse
+2023-07-23-sourdough
+2023-07-22-west-mcmillian
+2023-07-16-trappers-peak
+2023-07-14-excelsior-to-tomyhoi
+2023-07-08-twin-sisters-traverse
+2023-07-07-guye
+2023-06-25-Rattlesnake Ledge & Lake swim
+2023-06-24-dickerman-mountain
+2023-06-22-sloan-peak
+2023-06-16-burroughs-loop
+2023-06-15-little-si-big-si
+2023-06-11-mailbox-adi
+2023-06-04-adams-wsg
+2023-06-03-adams-avalanche-glacier-headwall
+2023-06-02-little-tahoma
+2023-05-29-hood
+2023-05-28-bachelor
+2023-05-28-south-sister
+2023-05-27-shasta-west-face
+2023-05-26-lassen
+2023-05-23-pacifica-run
+2023-05-21-vernal-nevada-falls
+2023-05-21-yosemite-falls
+2023-05-20-whitney-mountaineers
+2023-05-19-kidney-chute
+2023-05-17-bloody-couloir
+2023-05-16-carson-bowl
+2023-05-14-incredible-hulk
+2023-05-13-tom-west-face
+2023-05-12-Mammoth Rock Chute
+2023-05-11-palisades-to-taboose
+2023-05-10-Mammoth Rock corn lap
+2023-05-09-mammoth-hot-springs
+2023-05-08-kearsarge
+2023-05-07-mcgee
+2023-05-06-morrison-col
+2023-04-29-shasta
+2023-04-28-mcloughlin
+2023-04-27-thielsen
+2023-04-15-squagar
+2023-04-14-pineapple-pass-greg
+2023-04-08-crystal-mountain-nate
+2023-04-02-phantom
+2023-03-26-chair-peak
+2023-03-25-wright-trees
+2023-03-05-Mailbox Peak ascent only
+2023-03-03-spearhead-glacier
+2023-02-27-Lost in Kendall Trees
+2023-02-24-cougar true summit
+2023-02-15-humpback
+2023-02-08-crystal-backcountry-blake
+2023-01-14-panorama-point
+2023-01-08-blewett-pass
+
+2022-12-29-crystal-backcountry-porter
+2022-12-24-dc-run
+2022-09-07-stuart-direct-north-ridge
+2022-07-02-baker-squak
+2022-06-25-adams-sw-chutes
+2022-06-23-silver-peak
+2022-06-16-silver-peak
+2022-06-15-flyboys
+2022-06-01-tooth
+2022-05-23-fortune-peak
+2022-05-19-baker-coleman-deming
+2022-05-04-hood
+2022-04-29-shuksan-north-face
+2022-04-26-larrabee
+2022-04-24-st-helens
+2022-04-22-zipper-couloir
+
+Scan for missed outings to mid 2021:
+summer mclellan butte
+jan hood
+jan st helens
+march mt st helens
+summer st helens
+summer mt adams
+summer si and mailbox in a day
+
+Before WA:
+shasta
+whitney
+baldy
+gorgonio
+jacinto
+incline-trail
+
+Repeats:
+cable line
+si saddle with anna
+si with just haram
+si saddle with weight
+mt si again alone
+si true summit first
+mailbox with haram Teanaway
+mailbox with greg
+mailbox spring solo
+mailbox with haram winter
+mailbox with peter cramped new trail
+mailbox first
