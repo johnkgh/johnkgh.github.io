@@ -146,6 +146,7 @@ touch _posts/2024-01-06-phantom.md; mkdir 2024-01-06-phantom
 2022-04-22-zipper-couloir
 
 Scan for missed outings to mid 2021:
+summer jade lake
 summer mclellan butte
 jan hood
 jan st helens
