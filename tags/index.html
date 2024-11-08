@@ -117,11 +117,13 @@ permalink: /tags/
                   </span>
                   <ul class="tag">
                     {% for tag in post.tags %}
+                    {% unless tag == key %}
                     <li>
                       <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
                         {{ tag }}
                       </a>
                     </li>
+                    {% endunless %}
                     {% endfor %}
                   </ul>
                 </div>
@@ -159,11 +161,13 @@ permalink: /tags/
                   </span>
                   <ul class="tag">
                     {% for tag in post.tags %}
+                    {% unless tag == key %}
                     <li>
                       <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
                         {{ tag }}
                       </a>
                     </li>
+                    {% endunless %}
                     {% endfor %}
                   </ul>
                 </div>
@@ -201,11 +205,13 @@ permalink: /tags/
                   </span>
                   <ul class="tag">
                     {% for tag in post.tags %}
+                    {% unless tag == key %}
                     <li>
                       <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
                         {{ tag }}
                       </a>
                     </li>
+                    {% endunless %}
                     {% endfor %}
                   </ul>
                 </div>
@@ -243,11 +249,13 @@ permalink: /tags/
                   </span>
                   <ul class="tag">
                     {% for tag in post.tags %}
+                    {% unless tag == key %}
                     <li>
                       <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
                         {{ tag }}
                       </a>
                     </li>
+                    {% endunless %}
                     {% endfor %}
                   </ul>
                 </div>
