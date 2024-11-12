@@ -115,6 +115,15 @@ permalink: /tags/
                   <span class="date">
                     {{ post.date | date: "%Y-%m-%d" }}
                   </span>
+                  <ul class="tag">
+                    {% for tag in post.tags %}
+                    <li>
+                      <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+                        {{ tag }}
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
                 </div>
               </li>
             {% endif %}
@@ -148,6 +157,15 @@ permalink: /tags/
                   <span class="date">
                     {{ post.date | date: "%Y-%m-%d" }}
                   </span>
+                  <ul class="tag">
+                    {% for tag in post.tags %}
+                    <li>
+                      <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+                        {{ tag }}
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
                 </div>
               </li>
             {% endif %}
@@ -181,6 +199,15 @@ permalink: /tags/
                   <span class="date">
                     {{ post.date | date: "%Y-%m-%d" }}
                   </span>
+                  <ul class="tag">
+                    {% for tag in post.tags %}
+                    <li>
+                      <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+                        {{ tag }}
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
                 </div>
               </li>
             {% endif %}
@@ -214,6 +241,15 @@ permalink: /tags/
                   <span class="date">
                     {{ post.date | date: "%Y-%m-%d" }}
                   </span>
+                  <ul class="tag">
+                    {% for tag in post.tags %}
+                    <li>
+                      <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+                        {{ tag }}
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
                 </div>
               </li>
             {% endif %}
