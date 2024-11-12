@@ -8,41 +8,218 @@ permalink: /tags/
   <h2>No post found</h2>
 {% endif %}
 
+<!-- We unfortunately need to manually delineate tag categories using list contains -->
+<!-- Since there are so many regions, they won't be listed here -->
+{% assign activities = "on-foot#skiing#scramble#climbing#misc" | split:'#' %}
+{% assign states = "WA#OR#CA#ID#MT#WY#UT#CO#NV#AZ#AK#BC#AB#VA#Japan" | split:'#' %}
+{% assign others = "favorite#thoughts#multi-day" | split:'#' %}
+
+<!-- Get a single string list of tags with the sortable_size#name#true_size$...$...$ -->
+{% capture all_tags_string %}
+  {% for tag in site.tags %}
+    {{ tag[1].size | plus: 100000 }}#{{ tag[0] }}#{{ tag[1].size }}$
+  {% endfor %}
+{% endcapture %}
+
+<!-- Now you can split that string into a list, with one extra empty element at the end -->
+{% assign sorted_tags_by_count = all_tags_string | split:'$' | sort | reverse %}
+
 <div class="tags">
+  <!-- Other tags -->
   <ul class="label">
-    {% for tag in site.tags %}
-    <li>
-      <a href="#{{ tag[0] }}">
-        <span>{{ tag[0] }}</span>
-        <span class="count">{{ tag[1] | size }}</span>
-      </a>
-    </li>
+    {% for tag_metadata_string in sorted_tags_by_count %}
+      {% assign tag_elements = tag_metadata_string | split: '#' %}
+      {% if tag_elements[1] %}
+        {% if others contains tag_elements[1]%}
+          <li>
+            <a href="#{{ tag_elements[1] }}">
+              <span>{{ tag_elements[1] }}</span>
+              <span class="count">{{ tag_elements[2] }}</span>
+            </a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <!-- Activity tags -->
+  <ul class="label">
+    <!-- Now split the sort_key#name#true_size string into individual tag elements -->
+    {% for tag_metadata_string in sorted_tags_by_count %}
+      {% assign tag_elements = tag_metadata_string | split: '#' %} <!-- tag_elements are [sort key, name, count] -->
+      {% if tag_elements[1] %} <!-- Ignore the last empty element in the list of tags -->
+        {% if activities contains tag_elements[1] %}
+          <li>
+            <a href="#{{ tag_elements[1] }}">
+              <span>{{ tag_elements[1] }}</span>
+              <span class="count">{{ tag_elements[2] }}</span>
+            </a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <!-- State tags -->
+  <ul class="label">
+    {% for tag_metadata_string in sorted_tags_by_count %}
+      {% assign tag_elements = tag_metadata_string | split: '#' %}
+      {% if tag_elements[1] %}
+        {% if states contains tag_elements[1] %}
+          <li>
+            <a href="#{{ tag_elements[1] }}">
+              <span>{{ tag_elements[1] }}</span>
+              <span class="count">{{ tag_elements[2] }}</span>
+            </a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <!-- Everything else tags (regions) -->
+  <ul class="label">
+    {% for tag_metadata_string in sorted_tags_by_count %}
+      {% assign tag_elements = tag_metadata_string | split: '#' %}
+      {% if tag_elements[1] %}
+        {% unless activities contains tag_elements[1] or states contains tag_elements[1] or others contains tag_elements[1]%}
+          <li>
+            <a href="#{{ tag_elements[1] }}">
+              <span>{{ tag_elements[1] }}</span>
+              <span class="count">{{ tag_elements[2] }}</span>
+            </a>
+          </li>
+        {% endunless %}
+      {% endif %}
     {% endfor %}
   </ul>
 
-  {% for tag in site.tags %}
-    <h2 id="{{ tag[0] }}">
-      <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ tag[0] }}">{{ tag[0] }}</a>
-    </h2>
-    <ul class="tag">
-      {% for post in tag[1] %}
-        {% if post.title != null %}
-          <li>
-            <div class="metadata">
-              {% if post.link %}
-              <a href="{{ post.link }}">
-              {% else %}
-                <a href="{{ site.baseurl }}{{ post.url }}">
-              {% endif %}
-                {{ post.title }}
-              </a>
-              <span class="date">
-                {{ post.date | date: "%Y-%m-%d" }}
-              </span>
-            </div>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+  <!-- Other tags -->
+  {% for tag_metadata_string in sorted_tags_by_count %}
+    {% assign tag_elements = tag_metadata_string | split: '#' %}
+    {% if tag_elements[1] %}
+      {% if others contains tag_elements[1] %}
+        {% assign key = tag_elements[1] %}
+        <h2 id="{{ key }}">
+          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key }}">{{ key }}</a>
+        </h2>
+        <ul class="tag">
+          {% for post in site.tags[key] %}
+            {% if post.title != null %}
+              <li>
+                <div class="metadata">
+                  {% if post.link %}
+                  <a href="{{ post.link }}">
+                  {% else %}
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                  {% endif %}
+                    {{ post.title }}
+                  </a>
+                  <span class="date">
+                    {{ post.date | date: "%Y-%m-%d" }}
+                  </span>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- Activity tags -->
+  {% for tag_metadata_string in sorted_tags_by_count %}
+    {% assign tag_elements = tag_metadata_string | split: '#' %}
+    {% if tag_elements[1] %}
+      {% if activities contains tag_elements[1] %}
+        {% assign key = tag_elements[1] %}
+        <h2 id="{{ key }}">
+          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key }}">{{ key }}</a>
+        </h2>
+        <ul class="tag">
+          {% for post in site.tags[key] %}
+            {% if post.title != null %}
+              <li>
+                <div class="metadata">
+                  {% if post.link %}
+                  <a href="{{ post.link }}">
+                  {% else %}
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                  {% endif %}
+                    {{ post.title }}
+                  </a>
+                  <span class="date">
+                    {{ post.date | date: "%Y-%m-%d" }}
+                  </span>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- State tags -->
+  {% for tag_metadata_string in sorted_tags_by_count %}
+    {% assign tag_elements = tag_metadata_string | split: '#' %}
+    {% if tag_elements[1] %}
+      {% if states contains tag_elements[1] %}
+        {% assign key = tag_elements[1] %}
+        <h2 id="{{ key }}">
+          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key }}">{{ key }}</a>
+        </h2>
+        <ul class="tag">
+          {% for post in site.tags[key] %}
+            {% if post.title != null %}
+              <li>
+                <div class="metadata">
+                  {% if post.link %}
+                  <a href="{{ post.link }}">
+                  {% else %}
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                  {% endif %}
+                    {{ post.title }}
+                  </a>
+                  <span class="date">
+                    {{ post.date | date: "%Y-%m-%d" }}
+                  </span>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- Everything else tags (regions) -->
+  {% for tag_metadata_string in sorted_tags_by_count %}
+    {% assign tag_elements = tag_metadata_string | split: '#' %}
+    {% if tag_elements[1] %}
+      {% unless activities contains tag_elements[1] or states contains tag_elements[1] or others contains tag_elements[1] %}
+        {% assign key = tag_elements[1] %}
+        <h2 id="{{ key }}">
+          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key }}">{{ key }}</a>
+        </h2>
+        <ul class="tag">
+          {% for post in site.tags[key] %}
+            {% if post.title != null %}
+              <li>
+                <div class="metadata">
+                  {% if post.link %}
+                  <a href="{{ post.link }}">
+                  {% else %}
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                  {% endif %}
+                    {{ post.title }}
+                  </a>
+                  <span class="date">
+                    {{ post.date | date: "%Y-%m-%d" }}
+                  </span>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endunless %}
+    {% endif %}
   {% endfor %}
 </div>
