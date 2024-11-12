@@ -22,13 +22,17 @@ permalink: /archive/
 
     <li>
       <div class="metadata">
-        {% if post.link %}
-        <a href="{{ post.link }}">
-        {% else %}
-        <a href="{{ site.baseurl }}{{ post.url }}">
-        {% endif %}
+        {% if post.hidden %}
           {{ post.title }}
-        </a>
+        {% else %}
+          {% if post.link %}
+          <a href="{{ post.link }}">
+          {% else %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+          {% endif %}
+            {{ post.title }}
+          </a>
+        {% endif %}
         <span class="date">
           {{ post.date | date: "%Y-%m-%d" }}
         </span>
