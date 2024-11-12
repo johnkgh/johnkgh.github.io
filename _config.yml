@@ -72,6 +72,23 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+autopages:
+  enabled: true
+  tags:
+    enabled: true
+    permalink: '/tags/:tag/'
+  # Supported but unused autopages with native jekyll functionality docs:
+  categories: # https://jekyllrb.com/docs/posts/
+    enabled: false
+  collections: # https://jekyllrb.com/docs/collections/
+    enabled: false
+  # Quick rundown of Jekyll components:
+  # Page: one off pages for anything without grouping, e.g. a home page to show posts or an about page
+  # Post: page that's dated and can ordered and grouped by their dates
+  # Collection: group of logically related pages that aren't necessarily dated
+  # Tags: key names that can be attached to a post and referred to as a group
+  # Categories: like tags except can be defined by the folder a page is in and also defines url path
+
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
