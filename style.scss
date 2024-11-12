@@ -416,13 +416,22 @@ nav {
     line-height: 1em;
   }
 
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    font-size: 15px;
+  }
+}
+
+.metadata {
   .date {
     font-weight: 300;
     font-size: $small-font-size;
     color: $base-lighten-color;
     margin-right: 3px;
   }
-
   .tag {
     display: inline;
     font-weight: 300;
@@ -444,14 +453,6 @@ nav {
         border-radius: 3px;
       }
     }
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
-  .read-more {
-    font-size: 15px;
   }
 }
 
@@ -494,55 +495,47 @@ nav {
   a {
     color: $base-color;
   }
-  time {
-    color: $base-lighten-color;
-    font-size: $small-font-size;
-    font-weight: 300;
-    margin-left: 3px;
-  }
 }
 
 // Tags
-.tags > .label {
-  > li:before {
-    content: "";
-  }
+.tags {
+  .label {
+    > li:before {
+      content: "";
+    }
 
-  > li {
-    margin: 0;
-    font-size: $small-font-size;
-    font-weight: 300;
-    display: inline;
+    > li {
+      margin: 0;
+      font-size: $small-font-size;
+      font-weight: 300;
+      display: inline;
 
-    > a {
-      display: inline-block;
-      margin: 1px;
-      color: $tag-index-label-color;
-      background-color: $tag-index-label-background-color;
-      border-radius: 3px;
+      > a {
+        display: inline-block;
+        margin: 1px;
+        color: $tag-index-label-color;
+        background-color: $tag-index-label-background-color;
+        border-radius: 3px;
 
-      span {
-        float: left;
-        padding: .5px 5px;
+        span {
+          float: left;
+          padding: .5px 5px;
 
-        &.count {
-          background-color: $tag-index-count-background-color;
-          border-radius: 0 3px 3px 0;
+          &.count {
+            background-color: $tag-index-count-background-color;
+            border-radius: 0 3px 3px 0;
+          }
         }
       }
     }
   }
-}
-
-.tags > .tag {
-  a {
-    color: $base-color;
+  .tag {
+    a {
+      color: $base-color;
+    }
   }
-  time {
-    color: $base-lighten-color;
-    font-size: $small-font-size;
-    font-weight: 300;
-    margin-left: 3px;
+  h2 {
+    text-transform:capitalize;
   }
 }
 
