@@ -1,0 +1,101 @@
+Todo
+* Update all dependencies since we're no longer locked into GitHub support
+* Refactor duplicated code
+
+----------------------------------------------------------------------------------------------------
+
+SANITIZED STRAVA
+3/14/2024	Pineapple Pass 	1:36:53	4.55 mi	2,034 ft
+3/13/2024	Jim Hill Trees 	1:52:01	4.76 mi	2,454 ft
+-> 3/2/2024	Crystal Backcountry 	4:12:02	9.05 mi	5,558 ft
+-> 3/1/2024	Crystal Backcountry 	6:00:56	13.22 mi	8,924 ft
+2/27/2024	Alpental meandering 	4:28:31	9.54 mi	5,636 ft
+2/26/2024	Friendly Trees 	3:33:09	7.24 mi	4,528 ft
+-> 1/14/2024	Ptarmigan Perch 	4:09:15	10.56 mi	5,013 ft
+-> 1/13/2024	Baker Backcountry 	4:38:56	10.48 mi	6,188 ft
+1/12/2024	Phantom 	2:59:13	5.77 mi	4,442 ft
+1/10/2024	Humpback West Face scope out 	1:50:31	5.36 mi	1,614 ft
+1/7/2024	Wright Trees 	5:29:51	12.25 mi	5,686 ft
+1/6/2024	Phantom Area 	4:32:59	8.29 mi	6,056 ft
+-> 5/20/2023	Mt. Whitney	4:55:40	9.56 mi	6,365 ft
+-> 5/19/2023	Kidney Chute	3:56:40	8.75 mi	4,987 ft
+-> 5/17/2023	Bloody Couloir	5:04:51	11.48 mi	5,604 ft
+-> 5/16/2023	Carson Bowl	2:30:32	4.53 mi	3,415 ft
+-> 5/14/2023	Incredible Hulk Left Couloir	5:12:46	11.04 mi	4,610 ft
+-> 5/13/2023	Mt. Tom: West Face	4:48:24	7.88 mi	6,358 ft
+-> 5/12/2023	Mammoth Rock Chute	2:17:01	4.71 mi	2,320 ft
+-> 5/11/2023	Palisades to Taboose	9:05:24	24.18 mi	8,196 ft
+-> 5/10/2023	Mammoth Rock corn lap	1:28:35	3.45 mi	2,067 ft
+-> 5/08/2023	Kearsarge Peak	4:50:45	7.80 mi	7,730 ft
+-> 5/07/2023	McGee Mountain	3:55:33	7.85 mi	5,410 ft
+-> 5/06/2023	Morrison Col	2:26:35	5.62 mi	3,432 ft
+-> 4/29/2023	Mt. Shasta 	6:02:46	12.24 mi	7,428 ft
+-> 4/28/2023	Mt. McLoughlin 	4:12:23	9.61 mi	4,554 ft
+-> 4/27/2023	Mt. Thielsen 	4:31:33	9.82 mi	4,701 ft
+4/14/2023	Pineapple Pass 	1:52:51	5.31 mi	2,464 ft
+4/2/2023	Phantom Trees 	3:10:32	5.92 mi	3,875 ft
+3/26/2023	Chair Peak 	5:08:55	11.12 mi	5,456 ft
+3/25/2023	Wright Trees 	6:07:23	14.19 mi	6,936 ft
+2/15/2023	Cache Couloir with Peter 	1:38:14	3.65 mi	2,132 ft
+2/15/2023	Humpback 2 with KJ 	3:51:02	9.34 mi	5,444 ft
+2/15/2023	Humpback 1 with Kyle Kelsey 	2:21:18	5.22 mi	3,005 ft
+2/8/2023	Crystal with Blake 	3:04:43	8.25 mi	4,997 ft
+1/14/2023	Panorama Point 	1:04:03	3.46 mi	1,387 ft
+1/8/2023	Blewett Pass 	3:45:21	11.05 mi	4,345 ft
+12/29/2022	Crystal Backcountry 	3:50:53	9.67 mi	5,766 ft
+7/2/2022	Mt. Baker: Squak Glacier 	5:32:10	14.73 mi	7,806 ft
+6/25/2022	Mt. Adams: SW Chutes 	4:32:36	14.38 mi	7,498 ft
+6/23/2022	Silver Peak again 	1:37:19	5.05 mi	1,642 ft
+6/16/2022	Silver Peak 	1:50:43	5.66 mi	3,795 ft
+6/1/2022	The Toof 	1:59:25	5.28 mi	3,331 ft
+5/23/2022	Fortune Peak 	3:26:50	9.46 mi	5,132 ft
+5/19/2022	Mt. Baker: Coleman-Deming attempt 	6:06:58	20.34 mi	6,290 ft
+5/4/2022	Mt. Hood: Old Chute 	2:37:48	8.38 mi	5,808 ft
+4/26/2022	Mt. Larrabee Day 1 	2:16:01	5.27 mi	2,187 ft
+4/24/2022	Mt. St. Helens 	3:27:47	11.72 mi	5,920 ft
+4/22/2022	Lane peak: Zipper Couloir 	2:04:12	5.54 mi	4,539 ft
+
+10/13/2023	Mushroom Foraging 	15:34	1.51 mi	3 ft
+7/21/2023	Mt Roosevelt bail 	2:28:50	7.73 mi	1,765 ft
+7/7/2023	Guye Peak 	1:22:17	3.10 mi	2,208 ft
+6/25/2023	Rattlesnake Ledge & Lake 	1:41:34	6.78 mi	1,508 ft
+-> 6/24/2023	Dickerman Mountain 	3:12:04	8.84 mi	3,783 ft
+-> 6/22/2023	Sloan Peak Bail 	2:53:44	7.59 mi	3,796 ft
+-> 6/17/2023	Camp Muir 	3:00:55	8.53 mi	4,787 ft
+-> 6/16/2023	Burroughs Loop 	2:52:49	10.63 mi	3,780 ft
+-> 6/15/2023	Little Si Big Si 	3:22:47	9.12 mi	4,829 ft
+-> 5/23/2023	Pacifica 30	15.27 mi	3,366 ft
+-> 5/21/2023	Vernal and Nevada Falls	2:38:46	11.15 mi	2,720 ft
+-> 5/21/2023	Yosemite Falls	3:26:13	11.06 mi	4,160 ft
+-> 5/09/2023	In Search of Hot Springs	49:09	4.06 mi	518 ft
+4/15/2023	Squagar with Greg 	4:41:52	22.39 mi	5,505 ft
+12/24/2022	Messing around 	59:05	6.02 mi	203 ft
+
+----------------------------------------------------------------------------------------------------
+
+Scan for missed outings:
+summer mclellan butte
+jan hood
+jan st helens
+march mt st helens
+summer st helens
+summer mt adams
+summer si and mailbox in a day
+
+Before WA:
+Quandary Peak
+Incline Trail
+Mount Bross
+Mount Democrat
+Mount Lincoln
+Mount Cameron
+Mount Bierstadt
+Grays Peak
+Torreys Peak
+Mount Sherman
+Telescope Peak
+San Jacinto Peak
+San Gorgonio Mountain
+Mount San Antonio
+Mount Muir
+Mount Whitney
