@@ -20,19 +20,11 @@ permalink: /archive/
       {% endif %}
     {% endunless %}
 
-    <li>
+    <div class="collapsible-header" onclick="togglePreview(this)">
       <div class="metadata">
-        {% if post.hidden %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
-        {% else %}
-          {% if post.link %}
-          <a href="{{ post.link }}">
-          {% else %}
-          <a href="{{ site.baseurl }}{{ post.url }}">
-          {% endif %}
-            {{ post.title }}
-          </a>
-        {% endif %}
+        </a>
         <span class="date">
           {{ post.date | date: "%Y-%m-%d" }}
         </span>
@@ -46,6 +38,33 @@ permalink: /archive/
           {% endfor %}
         </ul>
       </div>
-    </li>
+    </div>
+    <div class="collapsible-content">
+      <div class="entry">
+        <p>
+          <img src="{{ site.baseurl }}{{ post.preview-image }}" loading="lazy">
+        </p>
+        {{ post.excerpt }}
+      </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </div>
   {% endfor %}
 </ul>
+
+<script>
+  function togglePreview(header) {
+    if (event.target.tagName === "A" || event.target.closest("a")) {
+      return; // Do not open collapsible header on links to prevent jitter
+    }
+    const content = header.nextElementSibling;
+    header.classList.toggle("active");
+    content.style.display = content.style.display === "block" ? "none" : "block";
+  }
+
+  // Do not enable highlighting in collapsible header
+  document.querySelectorAll('.collapsible-header').forEach(header => {
+    header.addEventListener('mousedown', (event) => {
+        event.preventDefault();
+    });
+  });
+</script>

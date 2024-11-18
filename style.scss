@@ -493,11 +493,39 @@ nav {
   }
 }
 
-// Archive
-.archive {
+.collapsible-header {
+  display: flex;
+  align-items: start;
+  line-height: 1.55;
+  margin: 0 auto 7.2px 0em; // Matched li exactly in padding and margin
+  position: relative;
   a {
     color: $base-color;
   }
+}
+
+.collapsible-header::before {
+  content: '▶';
+  transform: rotate(0deg);
+  transition: transform 0.2s ease;
+  font-size: 0.6em;
+  margin-top: 0.52em;
+  margin-left: 0.275em;
+  margin-right: 1.193em;
+  display: inline-block;
+}
+
+.collapsible-header.active::before {
+  transform: rotate(90deg);
+  margin-top: 0.4em;
+}
+
+.collapsible-content {
+  display: none;
+  padding: 0.5em 1em;
+  border-left: 2px solid #ccc;
+  font-size: 0.9em;
+  margin: 0 auto 7.2px 0.5em; // Match header
 }
 
 // Tags
@@ -530,11 +558,6 @@ nav {
           }
         }
       }
-    }
-  }
-  .tag {
-    a {
-      color: $base-color;
     }
   }
   h2 {
