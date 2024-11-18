@@ -430,14 +430,14 @@ nav {
 
 .metadata {
   .date {
-    font-weight: 300;
+    font-weight: 301;
     font-size: $small-font-size;
     color: $base-lighten-color;
     margin-right: 3px;
   }
   .tag {
     display: inline;
-    font-weight: 300;
+    font-weight: 301;
     font-size: $small-font-size;
 
     li:before {
@@ -460,7 +460,7 @@ nav {
 }
 
 .pagination {
-  font-weight: 300;
+  font-weight: 301;
   padding: 2em 0;
   width: 100%;
   display: inline-block;
@@ -510,7 +510,7 @@ nav {
     > li {
       margin: 0;
       font-size: $small-font-size;
-      font-weight: 300;
+      font-weight: 301;
       display: inline;
 
       > a {
