@@ -77,6 +77,8 @@ autopages:
   tags:
     enabled: true
     permalink: '/tags/:tag/'
+    slugify:
+      mode: 'default'
   # Supported but unused autopages with native jekyll functionality docs:
   categories: # https://jekyllrb.com/docs/posts/
     enabled: false

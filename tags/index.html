@@ -98,7 +98,7 @@ permalink: /tags/
       {% if others contains tag_elements[1] %}
         {% assign key = tag_elements[1] %}
         <h2 id="{{ key }}">
-          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key }}">{{ key }}</a>
+          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key | slugify}}">{{ key }}</a>
         </h2>
         <ul class="tag">
           {% for post in site.tags[key] %}
@@ -147,7 +147,7 @@ permalink: /tags/
       {% if activities contains tag_elements[1] %}
         {% assign key = tag_elements[1] %}
         <h2 id="{{ key }}">
-          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key }}">{{ key }}</a>
+          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key | slugify }}">{{ key }}</a>
         </h2>
         <ul class="tag">
           {% for post in site.tags[key] %}
@@ -196,7 +196,7 @@ permalink: /tags/
       {% if states contains tag_elements[1] %}
         {% assign key = tag_elements[1] %}
         <h2 id="{{ key }}">
-          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key }}">{{ key }}</a>
+          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key | slugify }}">{{ key }}</a>
         </h2>
         <ul class="tag">
           {% for post in site.tags[key] %}
@@ -245,7 +245,7 @@ permalink: /tags/
       {% unless activities contains tag_elements[1] or states contains tag_elements[1] or others contains tag_elements[1] %}
         {% assign key = tag_elements[1] %}
         <h2 id="{{ key }}">
-          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key }}">{{ key }}</a>
+          <a href="{{ site.baseurl }}{{ post.url }}/tags/{{ key | slugify }}">{{ key }}</a>
         </h2>
         <ul class="tag">
           {% for post in site.tags[key] %}
